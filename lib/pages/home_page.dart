@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
         children: [
           InkWell(
             onTap: () {
-              controller.makePayment(amount: '5', currency: 'USD');
+              controller.makePayment(amount: '50', currency: 'USD');
             },
             child: Center(
               child: Container(

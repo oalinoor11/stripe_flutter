@@ -62,7 +62,7 @@ class PaymentController extends GetxController {
           Uri.parse('https://api.stripe.com/v1/payment_intents'),
           body: body,
           headers: {
-            'Authorization': 'Bearer Your Stripe Secret Key',
+            'Authorization': 'Bearer sk_test_4eC39HqLyjWDarjtT1zdp7dc',
             'Content-Type': 'application/x-www-form-urlencoded'
           });
       return jsonDecode(response.body);

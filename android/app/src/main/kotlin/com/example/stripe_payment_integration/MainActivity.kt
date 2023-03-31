@@ -1,4 +1,4 @@
-package com.example.stripe_payment_integration
+package net.carboncodes.bornobangla
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.android.FlutterFragmentActivity

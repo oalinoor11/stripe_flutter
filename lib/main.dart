@@ -5,8 +5,7 @@ import 'package:stripe_payment_integration/pages/home_page.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  Stripe.publishableKey =
-      'Your Publishable Key'; // Replace with your publishable key
+  Stripe.publishableKey = 'pk_test_TYooMQauvdEDq54NiTphI7jx'; // Replace with your publishable key
   runApp(GetMaterialApp(
     initialRoute: '/',
     //fade in transition
